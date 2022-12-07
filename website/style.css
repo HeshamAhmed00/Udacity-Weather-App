@@ -1,0 +1,35 @@
+body {
+  background-color: cornflowerblue;
+  padding: 2vh;
+}
+.holder_headline {
+  text-align: center;
+  border-style: groove;
+  border-radius: 8vh;
+}
+.holder_zip {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+.holder_feel {
+  display: flex;
+  text-align: center;
+  padding-top: 2vh;
+  align-items: center;
+  flex-direction: column;
+}
+.holder_entry {
+  text-align: center;
+  padding: 2vh;
+}
+#entryHolder {
+  border-style: outset;
+  background-color: darkgray;
+}
+#error {
+  text-align: center;
+  border-style: outset;
+  background-color: darkgray;
+}

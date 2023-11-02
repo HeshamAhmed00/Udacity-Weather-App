@@ -1,17 +1,28 @@
 body {
-  background-color: cornflowerblue;
-  padding: 2vh;
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4vh;
+ 
 }
 .holder_headline {
   text-align: center;
-  border-style: groove;
+  border-style: outset;
   border-radius: 8vh;
+  background-color: rgba(206, 187, 187, 0.397);
+  margin-bottom: 5px;
 }
 .holder_zip {
   display: flex;
   flex-direction: column;
   align-content: space-around;
   align-items: center;
+  border:outset;
+  border-width: 1px;
+  width: 50%;
+margin: auto;
+  
+  
 }
 .holder_feel {
   display: flex;
@@ -19,17 +30,26 @@ body {
   padding-top: 2vh;
   align-items: center;
   flex-direction: column;
+ 
+  
 }
 .holder_entry {
   text-align: center;
-  padding: 2vh;
+  border: outset;
+  color:black;
+  width: 50%;
+  margin: auto;
+ margin-top: 13px;
+
 }
-#entryHolder {
-  border-style: outset;
-  background-color: darkgray;
-}
-#error {
+#error{
   text-align: center;
-  border-style: outset;
-  background-color: darkgray;
+  border: outset;
+  width: 50%;
+  margin: auto;
+  background-color: red;
+  color: white;
+}
+.title{
+  text-decoration:underline;
 }
